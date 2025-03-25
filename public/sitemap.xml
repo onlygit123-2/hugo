@@ -2,11 +2,35 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://example.org/</loc>
-    <lastmod>2025-03-25T16:48:16+08:00</lastmod>
+    <lastmod>2025-03-25T17:16:09+08:00</lastmod>
   </url>
   <url>
     <loc>https://example.org/posts/</loc>
-    <lastmod>2025-03-25T16:48:16+08:00</lastmod>
+    <lastmod>2025-03-25T17:16:09+08:00</lastmod>
+  </url>
+  <url>
+    <loc>https://example.org/posts/seo_20250325171609/</loc>
+    <lastmod>2025-03-25T17:16:09+08:00</lastmod>
+  </url>
+  <url>
+    <loc>https://example.org/posts/seo_20250325171543/</loc>
+    <lastmod>2025-03-25T17:15:43+08:00</lastmod>
+  </url>
+  <url>
+    <loc>https://example.org/posts/seo_20250325171539/</loc>
+    <lastmod>2025-03-25T17:15:39+08:00</lastmod>
+  </url>
+  <url>
+    <loc>https://example.org/posts/seo_20250325171511/</loc>
+    <lastmod>2025-03-25T17:15:11+08:00</lastmod>
+  </url>
+  <url>
+    <loc>https://example.org/posts/seo_20250325171507/</loc>
+    <lastmod>2025-03-25T17:15:07+08:00</lastmod>
+  </url>
+  <url>
+    <loc>https://example.org/posts/seo_20250325171501/</loc>
+    <lastmod>2025-03-25T17:15:01+08:00</lastmod>
   </url>
   <url>
     <loc>https://example.org/posts/seo_20250325164816/</loc>
