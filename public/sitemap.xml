@@ -1,27 +1,21 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://example.org/</loc>
-    <lastmod>2025-03-24T14:48:46+08:00</lastmod>
-  </url>
-  <url>
+    <lastmod>2025-03-25T15:17:13+08:00</lastmod>
+  </url><url>
     <loc>https://example.org/posts/</loc>
-    <lastmod>2025-03-24T14:48:46+08:00</lastmod>
-  </url>
-  <url>
-    <loc>https://example.org/posts/seo_1/</loc>
-    <lastmod>2025-03-24T14:48:46+08:00</lastmod>
-  </url>
-  <url>
-    <loc>https://example.org/posts/test/</loc>
-  </url>
-  <url>
-    <loc>https://example.org/posts/test2/</loc>
-  </url>
-  <url>
+    <lastmod>2025-03-25T15:17:13+08:00</lastmod>
+  </url><url>
+    <loc>https://example.org/posts/seo_20250325151713/</loc>
+    <lastmod>2025-03-25T15:17:13+08:00</lastmod>
+  </url><url>
+    <loc>https://example.org/posts/seo_20250325151708/</loc>
+    <lastmod>2025-03-25T15:17:08+08:00</lastmod>
+  </url><url>
     <loc>https://example.org/categories/</loc>
-  </url>
-  <url>
+  </url><url>
     <loc>https://example.org/tags/</loc>
   </url>
 </urlset>
