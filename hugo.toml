@@ -1,5 +1,47 @@
-baseURL = 'https://example.org/'
-languageCode = 'en-us'
-title = 'My New Hugo Site'
+baseURL = 'https://seo-09598d.gitlab.io'
+title = '直播视频创研社'
 theme = 'FixIt'
 defaultContentLanguage = 'zh-cn'
+
+languageCode = "zh-CN"
+languageName = "简体中文"
+hasCJKLanguage = true
+enableRobotsTXT = true
+enableEmoji = true
+enableGitInfo = true
+relativeURLs = false
+buildDrafts = false
+summaryLength = 150
+[languages.zh-cn]
+  languageName = "简体中文"
+  weight = 1
+[menu]
+  [[menu.main]]
+    identifier = "posts"
+    pre = "<i class='fa-solid fa-book'></i>"
+    name = "所有文章"
+    url = "/posts/"
+    weight = 1
+
+  [[menu.main]]
+    identifier = "categories"
+    pre = "<i class='fa fa-folder'></i>"
+    name = "分类"
+    url = "/categories/"
+    weight = 2
+
+  [[menu.main]]
+    identifier = "tags"
+    pre = "<i class='fa fa-tags'></i>"
+    name = "标签"
+    url = "/tags/"
+    weight = 3
+
+[params]
+  # 主页头像
+  avatar = "/images/logo-6d.png"  
+  avatarRounded = true   # 是否圆角（true/false）
+  avatarLink = "/posts/"  # 点击头像跳转链接
+
+  # 头像下方的文字
+  avatarDesc = "6D直播成年人的专属空间，实时互动尽享精彩"
