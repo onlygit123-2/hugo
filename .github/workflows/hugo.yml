@@ -1,0 +1,44 @@
+name: Build and Deploy Hugo Site
+
+on:
+  push:
+    branches:
+      - main   # 触发构建的分支，可改成 master
+
+permissions:
+  contents: write   # 允许推送构建结果到 gh-pages
+
+jobs:
+  build-deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      # 1. 检出代码
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      # 2. 设置 Hugo（这里选 extended 版本，支持 SASS/SCSS）
+      - name: Setup Hugo
+        uses: peaceiris/actions-hugo@v2
+        with:
+          hugo-version: '0.145.0'   
+          extended: true
+
+      # 3. 安装依赖（如果你的 theme 有 package.json）
+      - name: Install dependencies
+        run: |
+          if [ -f package.json ]; then
+            npm install
+          fi
+
+      # 4. 构建 Hugo
+      - name: Build site
+        run: hugo -d --minify
+
+      # 5. 部署到 gh-pages 分支
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./public
+          publish_branch: gh-pages

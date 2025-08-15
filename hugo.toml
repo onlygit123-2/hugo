@@ -1,5 +1,6 @@
 baseURL = 'https://seo-09598d.gitlab.io'
-title = '直播视频创研社'
+title = '七彩导航 - 七彩直播视频创研社成人福利导航'
+#title = '直播视频创研社'
 theme = 'FixIt'
 defaultContentLanguage = 'zh-cn'
 
