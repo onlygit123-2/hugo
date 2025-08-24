@@ -33,7 +33,7 @@ jobs:
 
       # 4. 构建 Hugo
       - name: Build site
-        run: hugo -d --minify
+        run: hugo build -D
 
       # 5. 部署到 gh-pages 分支
       - name: Deploy to GitHub Pages
